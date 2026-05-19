@@ -1,15 +1,17 @@
 # Denys Dontsu
 
-Python developer focused on backend systems and API design.  
-I build things I can also test — and test things I understand end-to-end.
+Python developer focused on backend systems and data pipelines.
+I build things that collect, process, and serve data reliably —
+and pay attention to what happens between the request and the response.
 
 ---
 
 ## About
 
-I have hands-on experience building REST APIs with FastAPI and PostgreSQL, designing relational schemas, and handling structured error flows. I pay attention to what happens between the request and the response — status codes, validation layers, database behavior — not just whether the UI looks right.
-
-Currently expanding into QA and API testing, applying the same backend knowledge to verification tasks.
+Hands-on experience building REST APIs and ETL pipelines from scratch.
+I focus on what happens between input and output — status codes,
+validation layers, retry logic, error handling, data consistency.
+Not just whether the result looks right, but why it's correct.
 
 ---
 
