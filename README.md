@@ -51,7 +51,7 @@ Backend REST API with 20+ endpoints covering authentication, exercise delivery, 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active%20development-yellow)
 
-[→ View repository](https://github.com/denysdontsu/LanguageProject)
+[→ View repository](https://github.com/denysdontsu/language-learning-backend)
 
 ---
 
