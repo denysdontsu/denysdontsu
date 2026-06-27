@@ -27,10 +27,11 @@ Not just whether the result looks right, but why it's correct.
 
 | Area | Details |
 |---|---|
-| APIs & Web | REST, HTTP, status codes, headers, JWT, OAuth2, DevTools (Network tab) |
+| APIs & Web | REST, HTTP, JWT, Google Drive API, Google Sheets API, DevTools (Network tab), status codes, headers |
 | Python | FastAPI, SQLAlchemy async, Pydantic v2, requests, BeautifulSoup4 |
 | Databases | PostgreSQL, schema design, constraints, indexes, Alembic |
 | Tools | Postman, Swagger UI, Git, Linux CLI |
+| AI & Automation | OpenAI Whisper, GPT-4o-mini, prompt engineering
 | English | B1 — technical documentation, written communication |
 
 ---
@@ -48,7 +49,7 @@ Backend REST API with 20+ endpoints covering authentication, exercise delivery, 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![Status](https://img.shields.io/badge/status-active%20development-yellow)
 
 [→ View repository](https://github.com/denysdontsu/LanguageProject)
 
@@ -66,6 +67,24 @@ Data pipeline that merges Oxford 3000/5000 word lists with CEFR profiles and fet
 ![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
 [→ View repository](https://github.com/denysdontsu/oxford-cambridge-vocabulary-builder)
+
+---
+
+### 🔧 AutoService Call Analyzer
+AI pipeline for automated quality control of auto service phone calls.
+Detects new audio files in Google Drive, transcribes with Whisper,
+analyzes dialogue with GPT, and writes structured reports to Google Sheets — fully automated.
+
+- Composite scoring: 40% checklist (greeting, appointment, farewell) + 60% GPT manager quality score
+- Deduplication via Sheets log — re-running the pipeline never creates duplicate rows
+- JSON cache layer: analysis results saved locally to avoid redundant API calls on re-runs
+- Full OAuth 2.0 flow with automatic token refresh; handles expired tokens without interrupting the pipeline
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=flat&logo=googledrive&logoColor=white)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
+[→ View repository](https://github.com/denysdontsu/audio_analizer)
 
 ---
 
